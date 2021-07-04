@@ -21,7 +21,7 @@ function Corpo() {
 		<View>
 			<TextInput ref={refvol1} style={styles.input} placeholder="Digite um nome" />
 			<TextInput ref={refvol2} style={styles.input} placeholder="Digite outro nome" />
-			<TouchableOpacity onPress={clicar} style={styles.btn}><Text style={styles.textBtn}>Comparar</Text></TouchableOpacity>
+			<TouchableOpacity onPress={clicar} style={styles.btn}><Text style={styles.textBtn}>Resultado</Text></TouchableOpacity>
 			<Text style={styles.result}>{resultado}</Text>
 		</View>
 	);
