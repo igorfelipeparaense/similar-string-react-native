@@ -1,13 +1,12 @@
 import React from 'react';
-import {View, Text} from 'react-native';
-import styles from '../../styles/estilo';
+import { View, Text } from 'react-native';
+import styles from './style.js';
 
-function Title() {
-	return(
-		<View>
-      		<Text style={styles.titulo}>SIMILAR STRING</Text>
-		</View>
-	);
-};
-
+const Title = () => {
+    return (
+        <View style={styles.boxTitle}>
+            <Text style={styles.textTitle}>SIMILAR STRING</Text>
+        </View>
+    );
+}
 export default Title;
