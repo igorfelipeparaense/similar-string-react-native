@@ -7,7 +7,7 @@ const Button = (props) => {
 		<TouchableOpacity 
 			style={styles.button}
 			onPress={props.clickBtn}>
-			<Text style={styles.buttonText}>Resultado</Text>
+			<Text style={styles.buttonText}>Comparar</Text>
 		</TouchableOpacity>
 	);
 }

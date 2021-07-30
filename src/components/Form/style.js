@@ -2,29 +2,32 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     form: {
-        display: "flex",
+        backgroundColor: "#347480",
         width: 300,
-        height: 80,
-        justifyContent: "space-between",
+        padding: 10,
+        justifyContent: "space-around",
         alignItems: "center",
+        borderRadius: 20,
     },
     textForm: {
         fontFamily: "serif",
         fontWeight: "bold",
-        fontSize: 24,
-        marginBottom: 10
+        fontSize: 18,
     },
-    textFormInput: {
-        backgroundColor: "#ffffff",
-        width: "100%",
-        height: 50,
-        borderRadius: 5,
-        border: "none",
-        fontFamily: "serif",
+    inputForm: {
+        width: "90%",
+        height: 40,
+        backgroundColor: "#f6f6f6",
+        borderRadius: 50,
+        margin: 12,
+        marginTop: 0,
+        paddingLeft: 10
+    },
+    errorMsg: {
+        fontSize: 14,
         fontWeight: "bold",
-        fontSize: 24,
-        textAlign: "center",
-        marginBottom: 8
+        color: "red",
+        marginBottom: 3
     }
 });
 export default styles;
