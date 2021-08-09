@@ -19,9 +19,9 @@ Surgiu com a finalidade de voltar a estudar programação e colocar em prática.
 ## 🖼 Screenshot das telas da aplicação 
 
 <div>
-  <img src="https://user-images.githubusercontent.com/83182736/128714601-85cfd9f4-6903-4440-97ef-590e8b4f0221.jpg" width="300px" />
-  <img src="https://user-images.githubusercontent.com/83182736/128714609-f65f67b7-89c5-47ed-a730-94e96195a2dd.jpg" width="300px" />
-  <img src="https://user-images.githubusercontent.com/83182736/128714607-16d31f54-328a-482c-b7d7-9ca6268b484a.jpg" width="300px" />
+  <img src="https://user-images.githubusercontent.com/83182736/128714601-85cfd9f4-6903-4440-97ef-590e8b4f0221.jpg" width="270px" />
+  <img src="https://user-images.githubusercontent.com/83182736/128714609-f65f67b7-89c5-47ed-a730-94e96195a2dd.jpg" width="270px" />
+  <img src="https://user-images.githubusercontent.com/83182736/128714607-16d31f54-328a-482c-b7d7-9ca6268b484a.jpg" width="270px" />
 </div
 <br/>
   
@@ -29,7 +29,7 @@ Surgiu com a finalidade de voltar a estudar programação e colocar em prática.
 
 ```bash
 # Clonar o repositório
-git clone https://github.com/pacotee/similar-string-vanilla-js
+git clone https://github.com/pacotee/similar-string-react-native
 
 # Entrar numa IDE de sua preferência 
 
